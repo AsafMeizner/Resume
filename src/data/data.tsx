@@ -103,7 +103,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Hi, my name is Asaf and I'm from Tel Aviv. I'm currently a high school student with a passion for computers, robotics, planes, and weapons. In my free time, I enjoy exploring these interests through hands-on projects and activities.
+  description: `Hi, my name is Asaf and I'm from Tel Aviv. I'm currently a high school student with a passion for computers, robotics, computer games, planes, and weapons. In my free time, I enjoy exploring these interests through hands-on projects and activities.
   
   I have been fortunate enough to have the opportunity to volunteer and lead in various organizations and teams. Through these experiences, I have gained valuable skills in teaching, mentorship, and teamwork and have had the chance to make a positive impact on the lives of others.
   
@@ -111,7 +111,7 @@ export const aboutData: About = {
   aboutItems: [
     {label: 'Location', text: 'Tel Aviv, Israel', Icon: MapIcon},
     {label: 'Age', text: '15', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Jewish', Icon: FlagIcon},
+    {label: 'Nationality', text: 'Israeli', Icon: FlagIcon},
     {label: 'Interests', text: 'Computers, Robotics, Planes, Wepons', Icon: SparklesIcon},
     {label: 'Study', text: 'Tichonet Highschool', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Non', Icon: OfficeBuildingIcon},
@@ -273,7 +273,7 @@ export const education: TimelineItem[] = [
     location: 'Tichonet High School',
     title: 'High school diploma',
     content: <p>
-    I am currently a high school student in Tel Aviv and am working towards my diploma. My course of study includes 5 units of math, 5 units of physics, 10 units of computer science, 5 units of English, and 5 units of Hebrew.
+    I am currently a high school student in Tel Aviv and am working towards my diploma. My course of study includes 5 units of math, 5 units of physics, 10 units of computer science, 5 units of English.
     <br />
     <br />
     I am passionate about these subjects and enjoy learning and exploring them through hands-on projects and activities. I have gained a strong foundation in these areas and am always looking for new opportunities to learn and grow.
@@ -287,7 +287,7 @@ export const education: TimelineItem[] = [
     location: 'Makers Assemble Ftc, Frc and Fll teams',
     title: 'Robotics',
     content: <p> 
-    am currently a high school student in Tel Aviv and am working towards my diploma. In addition to my coursework, I have also had the opportunity to participate in various robotics programs through FIRST (For Inspiration and Recognition of Science and Technology).
+    I am currently a high school student in Tel Aviv and am working towards my diploma. In addition to my coursework, I have also had the opportunity to participate in various robotics programs through FIRST (For Inspiration and Recognition of Science and Technology).
     <br />
     <br />
     I have been a member of a FIRST LEGO League (FLL) team for 2 years, a FIRST Tech Challenge (FTC) team for 1 year, and a FIRST Robotics Competition (FRC) team for 1 year. These experiences have allowed me to develop technical skills, leadership skills, and teamwork skills and to work on complex projects. I have also gained valuable experience in teaching, mentorship, and community service through my involvement in these programs.
@@ -305,7 +305,7 @@ export const experience: TimelineItem[] = [
     title: 'Programmer, Builder, Driver, Graphics award lead',
     content: (
       <p>
-        "As a member of an FRC robotics team, I have had the opportunity to develop a range of technical and leadership skills through my roles as a programmer, builder, driver, and graphics award lead. As a programmer, I have been responsible for developing and maintaining the code that powers our robot, using languages such as [language names]. As a builder, I have participated in the construction and maintenance of our robot and have designed and fabricated custom parts and components. As a driver, I have operated our robot during competitions, requiring strong hand-eye coordination and quick decision-making under pressure. In my role as graphics award lead, I have created and presented our team's graphics award submission, showcasing my design skills and ability to communicate the impact and significance of our team's work. Through these roles, I have gained valuable experience in working on complex technical projects, developing problem-solving and critical thinking skills, and leading and collaborating with a team.
+        "As a member of an FRC robotics team, I have had the opportunity to develop a range of technical and leadership skills through my roles as a programmer, builder, driver, and graphics award lead. As a programmer, I have been responsible for developing and maintaining the code that powers our robot, using languages such as Java, Python and Typescript. As a builder, I have participated in the construction and maintenance of our robot and have designed and fabricated custom parts and components. As a driver, I have operated our robot during competitions, requiring strong hand-eye coordination and quick decision-making under pressure. In my role as graphics award lead, I have created and presented our team's graphics award submission, showcasing my design skills and ability to communicate the impact and significance of our team's work. Through these roles, I have gained valuable experience in working on complex technical projects, developing problem-solving and critical thinking skills, and leading and collaborating with a team.
       </p>
     ),
   },
