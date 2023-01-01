@@ -135,7 +135,7 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'German',
-        level: 2,
+        level: 0.5,
       },
     ],
   },
@@ -147,7 +147,7 @@ export const skills: SkillGroup[] = [
         level: 7,
       },
       {
-        name: 'css',
+        name: 'Typescript',
         level: 5,
       },
       {
@@ -186,7 +186,7 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'css / javascript',
-        level: 1,
+        level: 2,
       },
     ],
   },
@@ -198,7 +198,7 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Frc team',
-    description: 'Frc Robotics Team 5951',
+    description: 'The Frc Robotics Team im a part of, Makers Assemble 5951',
     url: 'https://makersassemble5951.com/',
     image: porfolioImage1,
   },
