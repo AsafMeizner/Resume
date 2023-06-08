@@ -12,7 +12,7 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import spotifyIcon from '../components/Icon/spotifyIcon';
+import twitterIcon from '../components/Icon/twitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
@@ -394,5 +394,5 @@ export const socialLinks: Social[] = [
   {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/15829321/asaf-meizner'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/asaf-meizner-670536244/'},
   {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/asafmeizner/'},
-  {label: 'spotify', Icon: spotifyIcon, href: 'https://open.spotify.com/user/lp4y2ybtx0cyj94qe3r7ssrxh?si=5d6ea25d6dfd4336&nd=1'},
+  {label: 'twitter', Icon: twitterIcon, href: 'https://open.twitter.com/user/lp4y2ybtx0cyj94qe3r7ssrxh?si=5d6ea25d6dfd4336&nd=1'},
 ];

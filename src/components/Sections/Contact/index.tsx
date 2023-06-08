@@ -8,7 +8,7 @@ import FacebookIcon from '../../Icon/FacebookIcon';
 import GithubIcon from '../../Icon/GithubIcon';
 import InstagramIcon from '../../Icon/InstagramIcon';
 import LinkedInIcon from '../../Icon/LinkedInIcon';
-import spotifyIcon from '../../Icon/spotifyIcon';
+import twitterIcon from '../../Icon/twitterIcon';
 import Section from '../../Layout/Section';
 import ContactForm from './ContactForm';
 
@@ -19,7 +19,7 @@ const ContactValueMap: Record<ContactType, ContactValue> = {
   [ContactType.Github]: {Icon: GithubIcon, srLabel: 'Github'},
   [ContactType.LinkedIn]: {Icon: LinkedInIcon, srLabel: 'LinkedIn'},
   [ContactType.Facebook]: {Icon: FacebookIcon, srLabel: 'Facebook'},
-  [ContactType.spotify]: {Icon: spotifyIcon, srLabel: 'spotify'},
+  [ContactType.twitter]: {Icon: twitterIcon, srLabel: 'twitter'},
   [ContactType.Instagram]: {Icon: InstagramIcon, srLabel: 'Instagram'},
 };
 
