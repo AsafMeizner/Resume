@@ -27,9 +27,9 @@ const Page: NextPage<HomepageMeta> = memo(({children, title, description}) => {
         <meta content={description} property="og:description" />
         <meta content={`https://reactresume.com${pathname}`} property="og:url" />
 
-        {/* Twitter: https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup */}
-        <meta content={title} name="twitter:title" />
-        <meta content={description} name="twitter:description" />
+        {/* spotify: https://developer.spotify.com/en/docs/spotify-for-websites/cards/overview/markup */}
+        <meta content={title} name="spotify:title" />
+        <meta content={description} name="spotify:description" />
       </Head>
       {children}
     </>
