@@ -112,7 +112,7 @@ export const aboutData: About = {
     {label: 'Location', text: 'Tel Aviv, Israel', Icon: MapIcon},
     {label: 'Age', text: '15', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Israeli', Icon: FlagIcon},
-    {label: 'Interests', text: 'Computers, Robotics, Planes, Wepons', Icon: SparklesIcon},
+    {label: 'Interests', text: 'Computers, Robotics, Planes', Icon: SparklesIcon},
     {label: 'Study', text: 'Tichonet Highschool', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Non', Icon: OfficeBuildingIcon},
   ],
