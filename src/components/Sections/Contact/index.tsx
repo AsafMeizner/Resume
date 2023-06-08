@@ -8,7 +8,7 @@ import FacebookIcon from '../../Icon/FacebookIcon';
 import GithubIcon from '../../Icon/GithubIcon';
 import InstagramIcon from '../../Icon/InstagramIcon';
 import LinkedInIcon from '../../Icon/LinkedInIcon';
-import twitterIcon from '../../Icon/twitterIcon';
+import twitterIcon from '../../Icon/TwiterIcon';
 import Section from '../../Layout/Section';
 import ContactForm from './ContactForm';
 
