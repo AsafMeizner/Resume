@@ -22,6 +22,7 @@ import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
+import calander_image from '../images/calander_image.jpg';
 import {
   About,
   ContactSection,
@@ -32,6 +33,7 @@ import {
   SkillGroup,
   TestimonialSection,
   TimelineItem,
+  CalanderSection
 } from './dataDef';
 
 /**
@@ -54,6 +56,7 @@ export const SectionId = {
   Skills: 'skills',
   Stats: 'stats',
   Testimonials: 'testimonials',
+  Calander: 'calander'
 } as const;
 
 export type SectionId = typeof SectionId[keyof typeof SectionId];
@@ -348,6 +351,18 @@ export const testimonial: TestimonialSection = {
     },
   ],
 };
+
+/**
+ * Calandar section
+  */
+export const calendar: CalanderSection = {
+  headerText: 'My availability.',
+  // picture of calandar src\images\calander.png
+  imageSrc: calander_image,
+  actions: []
+};
+
+
 
 /**
  * Contact section

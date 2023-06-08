@@ -108,6 +108,22 @@ export interface Testimonial {
 }
 
 /**
+ * calander section
+  */
+export interface CalanderSection {
+  imageSrc: string;
+  headerText: string;
+  actions: CalanderItem[];
+}
+
+interface CalanderItem {
+  href: string;
+  text: string;
+  primary?: boolean;
+  Icon?: (props: SVGProps<SVGSVGElement>) => JSX.Element;
+}
+
+/**
  * Contact section
  */
 export interface ContactSection {
