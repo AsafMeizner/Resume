@@ -8,11 +8,6 @@ import {
   SparklesIcon,
 } from '@heroicons/react/outline';
 
-import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
-import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import twitterIcon from '../components/Icon/TwiterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
@@ -35,7 +30,6 @@ import {
   HomepageMeta,
   PortfolioItem,
   SkillGroup,
-  Social,
   // TestimonialSection,
   TimelineItem,
 } from './dataDef';
@@ -85,7 +79,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: '#resume',
       text: 'Resume',
       primary: true,
       Icon: DownloadIcon,
@@ -385,14 +379,3 @@ export const contact: ContactSection = {
     },
   ],
 };
-
-/**
- * Social items
- */
-export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/AsafMeizner'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/15829321/asaf-meizner'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/asaf-meizner-670536244/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/asafmeizner/'},
-  {label: 'twitter', Icon: twitterIcon, href: 'https://open.spotify.com/user/lp4y2ybtx0cyj94qe3r7ssrxh?si=5d6ea25d6dfd4336&nd=1'},
-];
