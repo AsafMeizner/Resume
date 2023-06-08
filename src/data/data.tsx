@@ -359,7 +359,7 @@ export const calendar: CalanderSection = {
   headerText: 'My availability.',
   // picture of calandar src\images\calander.png
   imageSrc: calander_image,
-  actions: []
+  CalanderItems: []
 };
 
 
