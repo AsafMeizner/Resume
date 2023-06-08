@@ -328,26 +328,26 @@ export const experience: TimelineItem[] = [
 /**
  * Testimonial section
  */
-// export const testimonial: TestimonialSection = {
-//   imageSrc: testimonialImage,
-//   testimonials: [
-//     {
-//       name: 'Joe biden',
-//       text: 'You know, theres a uhl during World War II, uh, you know, where Roosevelt came up with a thing uh, that uh, you knowq was totally different than a, than the, the, its called, he called it the, you knowq the World War II, he had the war — the War Production Board.',
-//       image: 'https://www.shutterstock.com/image-photo/new-york-ny-january-7-600w-1608793423.jpg',
-//     },
-//     {
-//       name: 'Jane Doe',
-//       text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-//       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
-//     },
-//     {
-//       name: 'Someone else',
-//       text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-//       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
-//     },
-//   ],
-// };
+export const testimonial: TestimonialSection = {
+  imageSrc: testimonialImage,
+  testimonials: [
+    {
+      name: 'Joe biden',
+      text: 'You know, theres a uhl during World War II, uh, you know, where Roosevelt came up with a thing uh, that uh, you knowq was totally different than a, than the, the, its called, he called it the, you knowq the World War II, he had the war — the War Production Board.',
+      image: 'https://www.shutterstock.com/image-photo/new-york-ny-january-7-600w-1608793423.jpg',
+    },
+    {
+      name: 'Jane Doe',
+      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
+      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
+    },
+    {
+      name: 'Someone else',
+      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
+      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+    },
+  ],
+};
 
 /**
  * Contact section
