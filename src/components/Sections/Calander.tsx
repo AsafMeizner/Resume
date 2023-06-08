@@ -6,7 +6,7 @@ import {aboutData, SectionId} from '../../data/data';
 import Section from '../Layout/Section';
 
 const Calander: FC = memo(() => {
-  const {profileImageSrc, CalanderItems} = aboutData;
+  const {profileImageSrc, CalanderItems} = calendar;
   return (
     <Section className="bg-neutral-800" sectionId={SectionId.Calander}>
       <div className={classNames('grid grid-cols-1 gap-y-4', {'md:grid-cols-4': !!profileImageSrc})}>
