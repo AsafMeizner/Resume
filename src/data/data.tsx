@@ -217,7 +217,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Python fun code',
     description: 'The code i wrote in python for fun - puzzles, games, and more',
-    url: 'https://github.com/PopiChan/Fun-Code',
+    url: 'https://github.com/AsafMeizner/Fun-Code',
     image: porfolioImage4,
   },
   {
@@ -229,7 +229,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'FTC 2021-2022 code',
     description: 'the code for the robot we built for the 2021-2022 season',
-    url: 'https://github.com/PopiChan/FTC-13146-2021-2022-NEW',
+    url: 'https://github.com/AsafMeizner/FTC-13146-2021-2022-NEW',
     image: porfolioImage6,
   },
   {
@@ -241,7 +241,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'countdown',
     description: 'When Afk it will open up a window with a countdown in fullscreen',
-    url: 'https://github.com/PopiChan/frc-countdown',
+    url: 'https://github.com/AsafMeizner/frc-countdown',
     image: porfolioImage8,
   },
   {
@@ -253,13 +253,13 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'bday card',
     description: 'A birthday card website for my friend',
-    url: 'https://popichan.github.io/',
+    url: 'https://AsafMeizner.github.io/',
     image: porfolioImage10,
   },
   {
     title: 'Prank virus',
     description: 'A library i made of fake viruses and pranks',
-    url: 'https://github.com/PopiChan/viruses',
+    url: 'https://github.com/AsafMeizner/viruses',
     image: porfolioImage11,
   },
 ];
@@ -380,8 +380,8 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Github,
-      text: 'Popichan',
-      href: 'https://github.com/Popichan',
+      text: 'AsafMeizner',
+      href: 'https://github.com/AsafMeizner',
     },
   ],
 };
@@ -390,7 +390,7 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/Popichan'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/AsafMeizner'},
   {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/15829321/asaf-meizner'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/asaf-meizner-670536244/'},
   {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/asafmeizner/'},
