@@ -1,14 +1,22 @@
 import {ChevronDownIcon} from '@heroicons/react/outline';
 import classNames from 'classnames';
 import Image from 'next/image';
-import {FC, memo} from 'react';
+import {FC, memo, useMemo} from 'react';
+import {FaGithub, FaInstagram,FaLinkedin, FaSpotify, FaStackOverflow} from 'react-icons/fa'
 
 import {heroData, SectionId} from '../../data/data';
+import IconLink from '../IconLink';
 import Section from '../Layout/Section';
-import Socials from '../Socials';
+
 
 const Hero: FC = memo(() => {
   const {imageSrc, name, description, actions} = heroData;
+
+  const githubIcon = useMemo(() => (<FaGithub size={30} />), [])
+  const stackoverflowIcon = useMemo(() => (<FaStackOverflow size={30} />), [])
+  const linkedinIcon = useMemo(() => (<FaLinkedin size={30} />), [])
+  const instagramIcon = useMemo(() => (<FaInstagram size={30} />), [])
+  const spotifyIcon = useMemo(() => (<FaSpotify size={30} />), [])
 
   return (
     <Section noPadding sectionId={SectionId.Hero}>
@@ -27,7 +35,11 @@ const Hero: FC = memo(() => {
             <h1 className="text-4xl font-bold text-white sm:text-5xl lg:text-7xl">{name}</h1>
             {description}
             <div className="flex gap-x-4 text-neutral-100">
-              <Socials />
+              <IconLink iconName={githubIcon} label='Github' link='https://github.com/AsafMeizner' />
+              <IconLink iconName={stackoverflowIcon} label='StackOverFlow' link='https://stackoverflow.com/users/15829321/asaf-meizner' />
+              <IconLink iconName={linkedinIcon} label='Linkedin' link='https://www.linkedin.com/in/asaf-meizner-670536244/' />
+              <IconLink iconName={instagramIcon} label='Instagram' link='https://www.instagram.com/asafmeizner/' />
+              <IconLink iconName={spotifyIcon} label='Spotify' link='https://open.spotify.com/user/lp4y2ybtx0cyj94qe3r7ssrxh?si=d1f13b99538d44f6' />
             </div>
             <div className="flex w-full justify-center gap-x-4">
               {actions.map(({href, text, primary, Icon}) => (
