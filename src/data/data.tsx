@@ -253,7 +253,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'bday card',
     description: 'A birthday card website for my friend',
-    url: 'https://AsafMeizner.github.io/',
+    url: 'https://asafmeizner.github.io/Birthday-card/',
     image: porfolioImage10,
   },
   {
