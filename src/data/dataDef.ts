@@ -112,7 +112,8 @@ export interface Testimonial {
   */
 export interface CalanderSection {
   imageSrc: string;
-  headerText: string;
+  headerText: string; 
+  description: string;
   CalanderItems: CalanderItem[];
 }
 

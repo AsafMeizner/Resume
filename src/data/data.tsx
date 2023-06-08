@@ -357,6 +357,7 @@ export const testimonial: TestimonialSection = {
   */
 export const calendar: CalanderSection = {
   headerText: 'My availability.',
+  description: 'Feel free to reach out to me with any questions or opportunities via the form below.',
   // picture of calandar src\images\calander.png
   imageSrc: calander_image,
   CalanderItems: []
